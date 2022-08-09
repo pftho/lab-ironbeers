@@ -85,10 +85,13 @@ nav ul li a {
 
 .beer-card {
   display: flex;
-  margin: 2rem;
-  border: solid red 5px;
+  margin: 5rem 2rem 0 2rem;
   width: 45%;
-  margin-top: 5rem;
+}
+
+.beer-card img {
+  height: 200px;
+  object-fit: cover;
 }
 
 .beer-description {
@@ -104,14 +107,15 @@ nav ul li a {
   font-size: 1.5rem;
 }
 
+.extra-info {
+  margin: 3rem 0 0 10rem;
+  width: 30%;
+}
+
 .extra-info h3 {
   font-weight: bold;
   font-size: 1rem;
-}
-
-.beer-card img {
-  height: 200px;
-  object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 /*FOOTER*/

@@ -6,3 +6,18 @@
         <p> {{this.tagline}}</p>
     </div>
 </div>
+
+<div class="extra-info">
+    <h3>Food Pairing: </h3>
+    <ul>
+        {{#each this.food_pairing}}
+        <li> {{this}} </li>
+        {{/each}}
+
+    </ul>
+
+    <h3>Bewers Tips: </h3>
+    <p> {{this.brewers_tips}}</p>
+
+
+</div>
